@@ -1,0 +1,70 @@
+﻿/* بک‌گراند و فونت */
+body {
+    background-color: #E6F2E6; /* سبز روشن */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* هدر */
+h1 {
+    text-align: center;
+    color: #3B5323; /* سبز تیره */
+    margin-top: 30px;
+}
+
+/* پاراگراف */
+p {
+    text-align: center;
+    color: #4B3621; /* قهوه‌ای */
+    font-size: 18px;
+}
+
+/* لینک‌ها */
+a {
+    color: #6B4226; /* قهوه‌ای تیره */
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #3B5323; /* سبز تیره */
+}
+
+/* تصاویر */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    max-width: 80%;
+}
+
+/* دکمه‌ها */
+button {
+    background-color: #8B5E3C; /* قهوه‌ای گرم */
+    border-radius: 12px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #3B5323; /* سبز تیره */
+}
+
+/* فرم تماس */
+input, textarea {
+    width: 80%;
+    margin: 5px auto;
+    display: block;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+form {
+    text-align: center;
+}
